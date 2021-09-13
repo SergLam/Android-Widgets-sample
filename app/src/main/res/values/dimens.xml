@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <dimen name="minimum_widget_size">40dp</dimen>
+    <dimen name="widget_full_screen_min_width">250dp</dimen>
+
+    <dimen name="widget_image_padding">10dp</dimen>
+    <dimen name="widget_text_size">16sp</dimen>
+
+    <dimen name="default_text_size">18sp</dimen>
+</resources>

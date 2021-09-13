@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Widget Example</string>
+
+    <string name="first_activity_placeholder">Welcome to First Activity</string>
+    <string name="second_activity_placeholder">Welcome to Second Activity</string>
+
+    <string name="simple_widget_text_placeholder">Click</string>
+    <string name="simple_widget_image_description">Image</string>
+
 </resources>

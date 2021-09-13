@@ -9,18 +9,19 @@
         android:layout_gravity="center_horizontal"
         android:src="@mipmap/ic_launcher"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/simple_widget_image_description" />
 
     <TextView
         android:id="@+id/clickTextView"
         android:clickable="true"
+        android:focusable="true"
         android:textStyle="bold"
-        android:textSize="16sp"
-        android:textColor="#000"
-        android:padding="10dp"
+        android:textSize="@dimen/widget_text_size"
+        android:textColor="@color/colorOnBackground"
+        android:padding="@dimen/widget_image_padding"
         android:layout_gravity="center_horizontal"
-        android:text="Click"
+        android:text="@string/simple_widget_text_placeholder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
